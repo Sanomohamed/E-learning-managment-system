@@ -4,7 +4,11 @@
 #########################################################################
 
 AddEmployee.java
+~~ Add employee class
+
 Course.java
+~~  class
+
 CourseMaintenance.java
 CourseRegisteration.java
 ELearningManagementSystem.java
