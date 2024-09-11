@@ -1,4 +1,3 @@
-
 public class Course {
 
     private String code;
@@ -45,7 +44,7 @@ public class Course {
         this.tutor = tutor;
     }
 
-    public void updateDetails(String title, String tutor, int crHrs) {
+    public void updateDetails(String title, String tutor, int creditHrs) {
         setTitle(title);
         setTutor(tutor);
         setCreditHrs(creditHrs);
@@ -55,7 +54,4 @@ public class Course {
     public String toString() {
         return code+":"+title+":("+creditHrs+")";
     }
-    
-    
-
 }

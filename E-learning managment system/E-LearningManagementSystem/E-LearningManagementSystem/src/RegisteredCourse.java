@@ -1,4 +1,3 @@
-
 public class RegisteredCourse {
 
     private Course course;
@@ -39,7 +38,4 @@ public class RegisteredCourse {
     public String toString() {
         return course.toString()+":"+semester;
     }
-    
-    
-
 }

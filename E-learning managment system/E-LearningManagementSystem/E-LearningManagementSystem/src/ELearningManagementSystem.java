@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +27,7 @@ public class ELearningManagementSystem {
 
         students.get(0).registerCourse(courses.get(0), 1);
         students.get(0).registerCourse(courses.get(2), 1);
+        students.get(1).registerCourse(courses.get(0), 1);
     }
 
     public boolean login(String un, String pass) {
@@ -142,6 +142,5 @@ public class ELearningManagementSystem {
     public static void main(String[] args) {
         ELearningManagementSystem system = new ELearningManagementSystem();
         new MainFrame(system).setVisible(true);
-
     }
 }

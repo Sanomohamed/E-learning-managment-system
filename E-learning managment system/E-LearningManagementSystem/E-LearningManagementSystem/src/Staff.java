@@ -1,4 +1,3 @@
-
 public class Staff extends User {
 
     private String id;
@@ -35,5 +34,4 @@ public class Staff extends User {
     public void setType(String type) {
         this.type = type;
     }
-
 }

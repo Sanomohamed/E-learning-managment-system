@@ -1,4 +1,3 @@
-
 public class User {
 
     private String name;
@@ -40,7 +39,5 @@ public class User {
     @Override
     public String toString() {
         return super.toString(); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    
+    }  
 }
